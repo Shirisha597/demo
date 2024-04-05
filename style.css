@@ -1,0 +1,178 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+
+nav{
+   display: flex;
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: row;
+   background-color: aqua;
+}
+nav img{
+   width: 200px;
+   height: 100px;
+}
+.nav-links{
+   flex: 1;
+   text-align: right;
+}
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+}
+.nav-links ul li a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 13px;
+}
+.nav-links ul li::after{
+   content: '';
+   width: 0px;
+   height: 2px;
+   background: #f44336;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+   width: 100px;
+
+}
+.text-box{
+   text-align: center;
+}
+.text-box h1{
+   font-size: 62px;
+
+}
+.text-box p{
+   margin: 10px 0 40px;
+   font-size: 14px;
+   color: black;
+}
+.hero-btn{
+   display: inline-block;
+   text-decoration: none;
+   color: black;
+   border: 1px saloid #fff;
+   padding: 12px 34px;
+   background: transparent;
+   position: relative;
+   cursor: pointer;
+}
+.hero-btn :hover{
+   background: 1px salid #f44336;
+   background: #f44336;
+   transition: 1s;
+
+}
+.row{
+   margin-top: 5px;
+   justify-content: space-between;
+}
+.cource-col{
+   flex-basis: 32px;
+   background: orange;
+   border-radius: 10px;
+   margin-bottom:5px;
+   padding: 20px 12px;
+   box-sizing: border-box;
+   transition: 0.5s;
+}
+h3{
+   text-align: center;
+   font-weight: 600px;
+   margin: 10px 0;
+}
+
+  .cource-col:hover{
+   box-shadow: 0 0 20px opx rgba(0,0,0,0,2);
+
+  }
+  */------ campus ------*/
+  .campus{
+   width: 80px;
+   margin: auto;
+   text-align: center;
+   padding-top: 50px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+
+  }
+  .campus .campus-col{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: flex-start;
+   text-align: center;
+   border-radius: 10px;
+   margin-bottom: 30px;
+   position: relative;
+   overflow: hidden;
+  }
+  .compas-col img{
+   width: 500px;
+   height: 500px;
+  }
+  .layer{
+   background: transparent;
+   height: 100px;
+   width: 100px;
+   position: absolute;
+   transition: 0.5s;
+  }
+  .layer:hover{
+   background: rgba(226,0,0,0,7);
+  }
+  .layer h3{
+   width: 100px;
+   font-weight: 500px;
+   color: blue;
+   font-size: 25px;
+   bottom: 0%;
+   left: 50px;
+   transform: translate(-50px);
+   position: absolute;
+
+  }
+  /*-------- facilities --------*/
+  .facilities{
+   text-align: center;
+  }
+  .facilities-col{
+   flex-basis: 31px;
+   border-radius: 10px;
+   margin-bottom: 5px;
+   text-align: left;
+
+  }
+  .facilities-col img{
+   width: 100px;
+   border-radius: 10px;
+
+  }
+ */ -------- testimonials --------*/
+ .testimonials{
+   width: 80px;
+   margin: auto;
+   padding-top: 100px;
+   text-align: center;
+ }
+ */-------- footer --------*/
+ .footer{
+   width: 100px;
+   text-align: center;
+   padding: 30px;
+
+ }
+ .footer h4{
+   align-items: center;
+ }
